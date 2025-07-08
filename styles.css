@@ -503,12 +503,6 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 768px) {
-  .header-container {
-    padding-top: 120px; /* Adjust if your nav is taller or shorter */
-  }
-}
-
 
 /* Card styles */
 .team-card {
