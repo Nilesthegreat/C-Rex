@@ -82,6 +82,9 @@ section {
   position: relative;
   z-index: 1;
 }
+
+/*logo awction*/
+/* Default desktop & general styling */
 .services {
   margin-top: 2rem;
   text-align: center;
@@ -102,12 +105,29 @@ section {
   text-align: left;
 }
 
-/* Optional custom icon using emoji or inline image */
 .service-list li::before {
   content: "✅";
   position: absolute;
   left: 0;
 }
+
+/* 🔐 MOBILE-SAFE FIX */
+@media (max-width: 768px) {
+  .header-container {
+    padding-top: 120px; /* pushes logo below nav on small screens */
+  }
+
+  .services {
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+
+  .service-list li {
+    font-size: 1rem;
+    padding-left: 1.8rem;
+  }
+}
+
 
 
 
