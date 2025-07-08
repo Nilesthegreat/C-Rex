@@ -45,6 +45,7 @@ section {
 }
 
 
+
 /* Hero */
 
 .hero {
@@ -81,6 +82,33 @@ section {
   position: relative;
   z-index: 1;
 }
+.services {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto;
+  max-width: 500px;
+}
+
+.service-list li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+  text-align: left;
+}
+
+/* Optional custom icon using emoji or inline image */
+.service-list li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+}
+
 
 
 /* About */
