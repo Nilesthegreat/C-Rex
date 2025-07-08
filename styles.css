@@ -47,6 +47,25 @@ section {
   max-width: 1100px;
   margin: auto;
 }
+.services-list {
+  margin-top: 1.5rem;
+  font-size: 16px;
+}
+.services-list ul {
+  list-style: none;
+  padding: 0;
+}
+.services-list li {
+  margin: 0.5rem 0;
+  position: relative;
+  padding-left: 20px;
+}
+.services-list li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+}
+
 
 /* Hero */
 
