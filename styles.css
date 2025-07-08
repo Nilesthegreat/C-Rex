@@ -111,23 +111,6 @@ section {
   left: 0;
 }
 
-/* 🔐 MOBILE-SAFE FIX */
-@media (max-width: 768px) {
-  .header-container {
-    padding-top: 120px; /* pushes logo below nav on small screens */
-  }
-
-  .services {
-    padding: 0 1rem;
-    margin-top: 2rem;
-  }
-
-  .service-list li {
-    font-size: 1rem;
-    padding-left: 1.8rem;
-  }
-}
-
 
 
 
